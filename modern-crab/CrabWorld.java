@@ -33,7 +33,7 @@ public class CrabWorld extends World
         prepare();
         contTiempo.setValue(TIEMPO_NIVEL);
         reloj = new SimpleTimer();
-        reloj2 = new SiumpleTimer();
+        reloj2 = new SimpleTimer();
     }
 
     public void started()
